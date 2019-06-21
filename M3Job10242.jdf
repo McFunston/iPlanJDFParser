@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<JDF DescriptiveName="Mail Segregation for Generic Post Offices - Vancouver Island" ID="JOB_10242" JobID="1011181" JobPartID="10242" ProjectID="10242" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+    xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+    <AuditPool>
+        <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_10242" TimeStamp="2019-06-20T07:34:56-04:00"/>
+    </AuditPool>
+    <ResourcePool>
+        <NodeInfo ID="NIF_10242" Status="Available" PartUsage="Implicit" Class="Parameter" NodeStatus="Waiting" LastEnd="2019-06-25T15:00:00-04:00">
+            <EmployeeRef rRef="EPL_963"/>
+        </NodeInfo>
+        <Employee ID="EPL_963" Status="Available" Class="Implementation" PersonalID="963" Roles="CSR">
+            <Person DescriptiveName="Elizabeth Clark" Class="Parameter" FirstName="Elizabeth Clark"/>
+        </Employee>
+        <CustomerInfo ID="CIF_10242" Status="Available" PartUsage="Implicit" Class="Parameter" CustomerID="2310" CustomerJobName="Mail Segregation for Generic Post Offices - Vancouver Island">
+            <ContactRef rRef="CTC_9284"/>
+        </CustomerInfo>
+        <Contact ID="CTC_9284" Status="Available" Class="Parameter" ContactTypes="Customer">
+            <PersonRef rRef="PER_13273"/>
+            <CompanyRef rRef="CPY_2310"/>
+            <AddressRef rRef="ADR_102463"/>
+        </Contact>
+        <Person DescriptiveName="France Chapdelaine" ID="PER_13273" Status="Available" Class="Parameter" FirstName="France Chapdelaine">
+            <ComChannel ChannelType="Email" Locator="france.chapdelain@postescanada.ca"/>
+        </Person>
+        <Company ID="CPY_2310" Status="Available" Class="Parameter" OrganizationName="CANADA POST CORPORATION"/>
+        <Address ID="ADR_102463" Status="Available" Class="Parameter" Country="Canada" CountryCode="CAN" PostalCode="K1A 0B1" Street="2701 Riverside Drive"/>
+        <Component DescriptiveName="02 - Cover Letter - Vancouver Island (Rural) 2p" ID="CMP_000007048-0-1" Status="Unavailable" Class="Quantity" ComponentType="FinalProduct" Dimensions="612.000000153 792.000000198 0" ProductType="Brochure"/>
+        <BindingIntent ID="BDG_000007048-0-1" Status="Available" Class="Intent" BindingOrder="Collecting">
+            <BindingSide Actual="Left" DataType="EnumerationSpan"/>
+            <BindingType Actual="SaddleStitch" DataType="EnumerationSpan"/>
+        </BindingIntent>
+        <Component DescriptiveName="02 - Cover Letter - Vancouver Island (Rural) 2p" ID="CMP_000007062-0-1" Status="Unavailable" PartIDKeys="SignatureName SheetName" Class="Quantity" ComponentType="PartialProduct Sheet" Dimensions="612.000000153 792.000000198 0" ProductType="Brochure"/>
+        <Component DescriptiveName="04 - Reference Guide - Vancouver Island (cover) 4p" ID="CMP_000004014-0-1" Status="Unavailable" PartIDKeys="SignatureName SheetName" Class="Quantity" ComponentType="PartialProduct Sheet" Dimensions="612.000000153 792.000000198 0" ProductType="FrontCover"/>
+        <Component DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)" ID="CMP_000001010-0-1" Status="Unavailable" Class="Quantity" ComponentType="FinalProduct" Dimensions="612.000000153 792.000000198 0" ProductType="Brochure"/>
+        <BindingIntent ID="BDG_000001010-0-1" Status="Available" Class="Intent" BindingOrder="Collecting">
+            <BindingSide Actual="Left" DataType="EnumerationSpan"/>
+            <BindingType Actual="SaddleStitch" DataType="EnumerationSpan"/>
+        </BindingIntent>
+        <Component DescriptiveName="03 - Vancouver Island FSA Signs 2p" ID="CMP_000005033-0-1" Status="Unavailable" Class="Quantity" ComponentType="FinalProduct" Dimensions="612.000000153 792.000000198 0" ProductType="Unknown"/>
+        <BindingIntent ID="BDG_000005033-0-1" Status="Available" Class="Intent" BindingOrder="Collecting">
+            <BindingSide Actual="Left" DataType="EnumerationSpan"/>
+            <BindingType Actual="SaddleStitch" DataType="EnumerationSpan"/>
+        </BindingIntent>
+        <Component DescriptiveName="Reference Guide - Vancouver Island Bound" ID="CMP_000004021-0-1" Status="Unavailable" Class="Quantity" ComponentType="FinalProduct" Dimensions="612.000000153 792.000000198 0" ProductType="Book"/>
+        <BindingIntent ID="BDG_000004021-0-1" Status="Available" Class="Intent" BindingOrder="Collecting">
+            <BindingSide Actual="Left" DataType="EnumerationSpan"/>
+            <BindingType Actual="SaddleStitch" DataType="EnumerationSpan"/>
+        </BindingIntent>
+        <Component DescriptiveName="05 - Reference Guide - Vancouver Island (text) 4p" ID="CMP_000004020-0-1" Status="Unavailable" PartIDKeys="SignatureName SheetName" Class="Quantity" ComponentType="PartialProduct Sheet" Dimensions="612.000000153 792.000000198 0" ProductType="Body"/>
+        <Media DescriptiveName="Digital Offset text" ID="PAP_10242-000007061" Status="Available" PartIDKeys="SignatureName SheetName" PartUsage="Implicit" Class="Consumable" Brand="Digital Offset text" Dimension="612.000000153 792.000000198" MediaType="Paper" Thickness="116.6" Weight="88.8" BackCoatings="None" FrontCoatings="None">
+            <Media SignatureName="SIG_10242-000004019">
+                <Media SheetName="02_-_Cover_Letter_-_Vancouver_Island_(Rural)_2p_SHT_10242-000007050-0-1"/>
+            </Media>
+        </Media>
+        <Media DescriptiveName="Coated Board Cover" ID="PAP_10242-000004022" Status="Available" PartIDKeys="SignatureName SheetName" PartUsage="Implicit" Class="Consumable" Brand="Coated Board Cover" Dimension="1296.000000324 864.000000216" MediaType="Paper" Thickness="254" Weight="202" BackCoatings="None" FrontCoatings="None">
+            <Media SignatureName="SIG_10242-000002005">
+                <Media SheetName="04_-_Reference_Guide_-_Vancouver_Island_(cover)_4p_SHT_10242-000004016-0-1"/>
+            </Media>
+        </Media>
+        <Media DescriptiveName="Digital Offset text" ID="PAP_10242-000000004" Status="Available" PartIDKeys="SignatureName SheetName" PartUsage="Implicit" Class="Consumable" Brand="Digital Offset text" Dimension="1224.000000306 792.000000198" MediaType="Paper" Thickness="116.6" Weight="88.8" BackCoatings="None" FrontCoatings="None">
+            <Media SignatureName="SIG_10242-000000002">
+                <Media SheetName="01_-_Cover_Letter_-_Vancouver_Island_(Urban)_4p_SHT_10242-000000005-0-1"/>
+            </Media>
+        </Media>
+        <Media DescriptiveName="#3 Coated Cover" ID="PAP_10242-000005031" Status="Available" PartIDKeys="SignatureName SheetName" PartUsage="Implicit" Class="Consumable" Brand="#3 Coated Cover" Dimension="1296.000000324 864.000000216" MediaType="Paper" Thickness="330.7" Weight="351.5" BackCoatings="None" FrontCoatings="None">
+            <Media SignatureName="SIG_10242-000003012">
+                <Media SheetName="03_-_Vancouver_Island_FSA_Signs_2p_SHT_10242-000005029-0-1"/>
+            </Media>
+        </Media>
+        <Media DescriptiveName="Digital Offset text" ID="PAP_10242-000004027" Status="Available" PartIDKeys="SignatureName SheetName" PartUsage="Implicit" Class="Consumable" Brand="Digital Offset text" Dimension="1296.000000324 864.000000216" MediaType="Paper" Thickness="116.6" Weight="88.8" BackCoatings="None" FrontCoatings="None">
+            <Media SignatureName="SIG_10242-000002004">
+                <Media SheetName="05_-_Reference_Guide_-_Vancouver_Island_(text)_4p_SHT_10242-000004012-0-1"/>
+            </Media>
+        </Media>
+    </ResourcePool>
+    <ResourceLinkPool>
+        <NodeInfoLink rRef="NIF_10242" Usage="Input"/>
+        <EmployeeLink rRef="EPL_963" Usage="Input"/>
+        <CustomerInfoLink rRef="CIF_10242" Usage="Input"/>
+        <BindingIntentLink rRef="BDG_000007048-0-1" Usage="Input"/>
+        <BindingIntentLink rRef="BDG_000001010-0-1" Usage="Input"/>
+        <BindingIntentLink rRef="BDG_000005033-0-1" Usage="Input"/>
+        <BindingIntentLink rRef="BDG_000004021-0-1" Usage="Input"/>
+        <ComponentLink rRef="CMP_000007048-0-1" Usage="Output" Amount="150"/>
+        <ComponentLink rRef="CMP_000001010-0-1" Usage="Output" Amount="170"/>
+        <ComponentLink rRef="CMP_000005033-0-1" Usage="Output" Amount="200"/>
+        <ComponentLink rRef="CMP_000004021-0-1" Usage="Output" Amount="230"/>
+        <ComponentLink rRef="CMP_000004020-0-1" Usage="Input" Amount="1659"/>
+        <ComponentLink rRef="CMP_000004014-0-1" Usage="Input" Amount="237"/>
+    </ResourceLinkPool>
+    <JDF DescriptiveName="02 - Cover Letter - Vancouver Island (Rural)  2p" ID="PRD_10242-000004019" JobPartID="PRD_10242-000004019" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+        xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+        <AuditPool>
+            <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PRD_10242-000004019" TimeStamp="2019-06-20T07:34:56-04:00"/>
+        </AuditPool>
+        <ResourcePool>
+            <RunList DescriptiveName="02 - Cover Letter - Vancouver Island (Rural)  2p" ID="RLD_IPPP10242-10004" Status="Available" Class="Parameter" NPage="2"/>
+            <RunList DescriptiveName="02 - Cover Letter - Vancouver Island (Rural)  2p" ID="RLD_OPPP10242-10004" Status="Unavailable" Class="Parameter"/>
+            <RunList DescriptiveName="02 - Cover Letter - Vancouver Island (Rural)  2p" ID="RLM_OIP10242-10004" Status="Unavailable" Class="Parameter"/>
+            <Assembly DescriptiveName="ASB: Reference Guide - Vancouver Island Bound" ID="ASB_10242-000004019" Status="Available" Class="Parameter" BindingSide="Left" Order="Collecting"/>
+            <StrippingParams DescriptiveName="02 - Cover Letter - Vancouver Island (Rural)  2p" ID="SPM_10242-000004019" Status="Available" PartIDKeys="SignatureName SheetName" Class="Parameter" WorkStyle="WorkAndBack">
+                <StrippingParams WorkStyle="WorkAndBack" SignatureName="SIG_10242-000004019">
+                    <StrippingParams DescriptiveName="Digital Print F/B 1x1" WorkStyle="WorkAndBack" SheetName="02_-_Cover_Letter_-_Vancouver_Island_(Rural)_2p_SHT_10242-000007050-0-1">
+                        <MediaRef rRef="PAP_10242-000007061">
+                            <Part SignatureName="SIG_10242-000004019" SheetName="02_-_Cover_Letter_-_Vancouver_Island_(Rural)_2p_SHT_10242-000007050-0-1"/>
+                        </MediaRef>
+                        <BinderySignatureRef rRef="BSG_000007048-0-1"/>
+                        <Position Orientation="Rotate0" RelativeBox="0 0 1 1"/>
+                        <StripCellParams TrimSize="612.000000153 792.000000198" FrontOverfold="0" BackOverfold="0"/>
+                    </StrippingParams>
+                </StrippingParams>
+            </StrippingParams>
+            <BinderySignature ID="BSG_000007048-0-1" Status="Available" Class="Parameter" BinderySignatureType="Fold" BindingEdge="Left" FoldCatalog="F2-1" NumberUp="1 1" JogEdge="Bottom"/>
+            <Layout DescriptiveName="02 - Cover Letter - Vancouver Island (Rural)  2p" ID="LAY_10242-000004019" Status="Unavailable" PartIDKeys="SignatureName SheetName Side" Class="Parameter">
+                <Layout SignatureName="SIG_10242-000004019">
+                    <Layout SheetName="02_-_Cover_Letter_-_Vancouver_Island_(Rural)_2p_SHT_10242-000007050-0-1">
+                        <MediaRef rRef="PAP_10242-000007061">
+                            <Part SignatureName="SIG_10242-000004019" SheetName="02_-_Cover_Letter_-_Vancouver_Island_(Rural)_2p_SHT_10242-000007050-0-1"/>
+                        </MediaRef>
+                        <Layout Side="Front"/>
+                        <Layout Side="Back"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </ResourcePool>
+        <ResourceLinkPool>
+            <ComponentLink rRef="CMP_000007048-0-1" Usage="Output" Amount="150"/>
+            <ComponentLink rRef="CMP_000007062-0-1" Usage="Output" Amount="150"/>
+        </ResourceLinkPool>
+        <JDF DescriptiveName="Preparation" Category="MISPRE.PrePressPreparation" ID="PPP_10242-10004" JobPartID="PPP_10242-10004" Status="Waiting" Type="ProcessGroup" Types="PrePressPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PPP_10242-10004" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Document" rRef="RLD_IPPP10242-10004" Usage="Input"/>
+                <RunListLink ProcessUsage="Document" rRef="RLD_OPPP10242-10004" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+        <JDF DescriptiveName="02---Cover-Letter---Vancouver-Island-(Rural)-2p" Category="MISPRE.ImpositionPreparation" ID="IMP_10242-10004" JobPartID="IMP_10242-10004" Status="Waiting" Type="ProcessGroup" Types="ImpositionPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_IMP_10242-10004" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Marks" rRef="RLM_OIP10242-10004" Usage="Output"/>
+                <AssemblyLink rRef="ASB_10242-000004019" Usage="Input"/>
+                <StrippingParamsLink rRef="SPM_10242-000004019" Usage="Input"/>
+                <LayoutLink rRef="LAY_10242-000004019" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+    </JDF>
+    <JDF DescriptiveName="04 - Reference Guide - Vancouver Island (cover)  4p" ID="PRD_10242-000002005" JobPartID="PRD_10242-000002005" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+        xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+        <AuditPool>
+            <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PRD_10242-000002005" TimeStamp="2019-06-20T07:34:56-04:00"/>
+        </AuditPool>
+        <ResourcePool>
+            <RunList DescriptiveName="04 - Reference Guide - Vancouver Island (cover)  4p" ID="RLD_IPPP10242-10003" Status="Available" Class="Parameter" NPage="4"/>
+            <RunList DescriptiveName="04 - Reference Guide - Vancouver Island (cover)  4p" ID="RLD_OPPP10242-10003" Status="Unavailable" Class="Parameter"/>
+            <RunList DescriptiveName="04 - Reference Guide - Vancouver Island (cover)  4p" ID="RLM_OIP10242-10003" Status="Unavailable" Class="Parameter"/>
+            <Assembly DescriptiveName="ASB: Reference Guide - Vancouver Island Bound" ID="ASB_10242-000002005" Status="Available" Class="Parameter" BindingSide="Left" Order="Collecting"/>
+            <StrippingParams DescriptiveName="04 - Reference Guide - Vancouver Island (cover)  4p" ID="SPM_10242-000002005" Status="Available" PartIDKeys="SignatureName SheetName" Class="Parameter" WorkStyle="WorkAndBack">
+                <StrippingParams WorkStyle="WorkAndBack" SignatureName="SIG_10242-000002005">
+                    <StrippingParams DescriptiveName="Digital Print F/B 4x4" WorkStyle="WorkAndBack" SheetName="04_-_Reference_Guide_-_Vancouver_Island_(cover)_4p_SHT_10242-000004016-0-1">
+                        <MediaRef rRef="PAP_10242-000004022">
+                            <Part SignatureName="SIG_10242-000002005" SheetName="04_-_Reference_Guide_-_Vancouver_Island_(cover)_4p_SHT_10242-000004016-0-1"/>
+                        </MediaRef>
+                        <BinderySignatureRef rRef="BSG_000004014-0-1"/>
+                        <Position Orientation="Rotate0" RelativeBox="0.02778871391 0.04168307087 0.97223315836 0.95834973753"/>
+                        <StripCellParams TrimSize="612.000000153 792.000000198" FrontOverfold="0" BackOverfold="0"/>
+                    </StrippingParams>
+                </StrippingParams>
+            </StrippingParams>
+            <BinderySignature ID="BSG_000004014-0-1" Status="Available" Class="Parameter" BinderySignatureType="Fold" BindingEdge="Left" FoldCatalog="F4-2" NumberUp="2 1" JogEdge="Bottom"/>
+            <Layout DescriptiveName="04 - Reference Guide - Vancouver Island (cover)  4p" ID="LAY_10242-000002005" Status="Unavailable" PartIDKeys="SignatureName SheetName Side" Class="Parameter">
+                <Layout SignatureName="SIG_10242-000002005">
+                    <Layout SheetName="04_-_Reference_Guide_-_Vancouver_Island_(cover)_4p_SHT_10242-000004016-0-1">
+                        <MediaRef rRef="PAP_10242-000004022">
+                            <Part SignatureName="SIG_10242-000002005" SheetName="04_-_Reference_Guide_-_Vancouver_Island_(cover)_4p_SHT_10242-000004016-0-1"/>
+                        </MediaRef>
+                        <Layout Side="Front"/>
+                        <Layout Side="Back"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </ResourcePool>
+        <ResourceLinkPool>
+            <ComponentLink rRef="CMP_000004014-0-1" Usage="Output" Amount="237"/>
+        </ResourceLinkPool>
+        <JDF DescriptiveName="Preparation" Category="MISPRE.PrePressPreparation" ID="PPP_10242-10003" JobPartID="PPP_10242-10003" Status="Waiting" Type="ProcessGroup" Types="PrePressPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PPP_10242-10003" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Document" rRef="RLD_IPPP10242-10003" Usage="Input"/>
+                <RunListLink ProcessUsage="Document" rRef="RLD_OPPP10242-10003" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+        <JDF DescriptiveName="04---Reference-Guide---Vancouver-Island-(cover)-4p" Category="MISPRE.ImpositionPreparation" ID="IMP_10242-10003" JobPartID="IMP_10242-10003" Status="Waiting" Type="ProcessGroup" Types="ImpositionPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_IMP_10242-10003" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Marks" rRef="RLM_OIP10242-10003" Usage="Output"/>
+                <AssemblyLink rRef="ASB_10242-000002005" Usage="Input"/>
+                <StrippingParamsLink rRef="SPM_10242-000002005" Usage="Input"/>
+                <LayoutLink rRef="LAY_10242-000002005" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+    </JDF>
+    <JDF DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)  4p" ID="PRD_10242-000000002" JobPartID="PRD_10242-000000002" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+        xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+        <AuditPool>
+            <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PRD_10242-000000002" TimeStamp="2019-06-20T07:34:56-04:00"/>
+        </AuditPool>
+        <ResourcePool>
+            <RunList DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)  4p" ID="RLD_IPPP10242-10001" Status="Available" Class="Parameter" NPage="4"/>
+            <RunList DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)  4p" ID="RLD_OPPP10242-10001" Status="Unavailable" Class="Parameter"/>
+            <RunList DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)  4p" ID="RLM_OIP10242-10001" Status="Unavailable" Class="Parameter"/>
+            <Assembly DescriptiveName="ASB: Reference Guide - Vancouver Island Bound" ID="ASB_10242-000000002" Status="Available" Class="Parameter" BindingSide="Left" Order="Collecting"/>
+            <StrippingParams DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)  4p" ID="SPM_10242-000000002" Status="Available" PartIDKeys="SignatureName SheetName" Class="Parameter" WorkStyle="WorkAndBack">
+                <StrippingParams WorkStyle="WorkAndBack" SignatureName="SIG_10242-000000002">
+                    <StrippingParams DescriptiveName="Digital Print F/B 1x1" WorkStyle="WorkAndBack" SheetName="01_-_Cover_Letter_-_Vancouver_Island_(Urban)_4p_SHT_10242-000000005-0-1">
+                        <MediaRef rRef="PAP_10242-000000004">
+                            <Part SignatureName="SIG_10242-000000002" SheetName="01_-_Cover_Letter_-_Vancouver_Island_(Urban)_4p_SHT_10242-000000005-0-1"/>
+                        </MediaRef>
+                        <BinderySignatureRef rRef="BSG_000001010-0-1"/>
+                        <Position Orientation="Rotate180" RelativeBox="0 0 1 1"/>
+                        <StripCellParams TrimSize="612.000000153 792.000000198" FrontOverfold="0" BackOverfold="0"/>
+                    </StrippingParams>
+                </StrippingParams>
+            </StrippingParams>
+            <BinderySignature ID="BSG_000001010-0-1" Status="Available" Class="Parameter" BinderySignatureType="Fold" BindingEdge="Left" FoldCatalog="F4-2" NumberUp="2 1" JogEdge="Bottom"/>
+            <Layout DescriptiveName="01 - Cover Letter - Vancouver Island (Urban)  4p" ID="LAY_10242-000000002" Status="Unavailable" PartIDKeys="SignatureName SheetName Side" Class="Parameter">
+                <Layout SignatureName="SIG_10242-000000002">
+                    <Layout SheetName="01_-_Cover_Letter_-_Vancouver_Island_(Urban)_4p_SHT_10242-000000005-0-1">
+                        <MediaRef rRef="PAP_10242-000000004">
+                            <Part SignatureName="SIG_10242-000000002" SheetName="01_-_Cover_Letter_-_Vancouver_Island_(Urban)_4p_SHT_10242-000000005-0-1"/>
+                        </MediaRef>
+                        <Layout Side="Front"/>
+                        <Layout Side="Back"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </ResourcePool>
+        <ResourceLinkPool>
+            <ComponentLink rRef="CMP_000001010-0-1" Usage="Output" Amount="170"/>
+        </ResourceLinkPool>
+        <JDF DescriptiveName="Preparation" Category="MISPRE.PrePressPreparation" ID="PPP_10242-10001" JobPartID="PPP_10242-10001" Status="Waiting" Type="ProcessGroup" Types="PrePressPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PPP_10242-10001" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Document" rRef="RLD_IPPP10242-10001" Usage="Input"/>
+                <RunListLink ProcessUsage="Document" rRef="RLD_OPPP10242-10001" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+        <JDF DescriptiveName="01---Cover-Letter---Vancouver-Island-(Urban)-4p" Category="MISPRE.ImpositionPreparation" ID="IMP_10242-10001" JobPartID="IMP_10242-10001" Status="Waiting" Type="ProcessGroup" Types="ImpositionPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_IMP_10242-10001" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Marks" rRef="RLM_OIP10242-10001" Usage="Output"/>
+                <AssemblyLink rRef="ASB_10242-000000002" Usage="Input"/>
+                <StrippingParamsLink rRef="SPM_10242-000000002" Usage="Input"/>
+                <LayoutLink rRef="LAY_10242-000000002" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+    </JDF>
+    <JDF DescriptiveName="03 - Vancouver Island FSA Signs  2p" ID="PRD_10242-000003012" JobPartID="PRD_10242-000003012" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+        xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+        <AuditPool>
+            <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PRD_10242-000003012" TimeStamp="2019-06-20T07:34:56-04:00"/>
+        </AuditPool>
+        <ResourcePool>
+            <RunList DescriptiveName="03 - Vancouver Island FSA Signs  2p" ID="RLD_IPPP10242-10002" Status="Available" Class="Parameter" NPage="2"/>
+            <RunList DescriptiveName="03 - Vancouver Island FSA Signs  2p" ID="RLD_OPPP10242-10002" Status="Unavailable" Class="Parameter"/>
+            <RunList DescriptiveName="03 - Vancouver Island FSA Signs  2p" ID="RLM_OIP10242-10002" Status="Unavailable" Class="Parameter"/>
+            <Assembly DescriptiveName="ASB: Reference Guide - Vancouver Island Bound" ID="ASB_10242-000003012" Status="Available" Class="Parameter" BindingSide="Left" Order="Collecting"/>
+            <StrippingParams DescriptiveName="03 - Vancouver Island FSA Signs  2p" ID="SPM_10242-000003012" Status="Available" PartIDKeys="SignatureName SheetName" Class="Parameter" WorkStyle="WorkAndBack">
+                <StrippingParams WorkStyle="WorkAndBack" SignatureName="SIG_10242-000003012">
+                    <StrippingParams DescriptiveName="Digital Print F/B 4x4" WorkStyle="WorkAndBack" SheetName="03_-_Vancouver_Island_FSA_Signs_2p_SHT_10242-000005029-0-1">
+                        <MediaRef rRef="PAP_10242-000005031">
+                            <Part SignatureName="SIG_10242-000003012" SheetName="03_-_Vancouver_Island_FSA_Signs_2p_SHT_10242-000005029-0-1"/>
+                        </MediaRef>
+                        <BinderySignatureRef rRef="BSG_000005033-0-1"/>
+                        <Position Orientation="Rotate0" RelativeBox="0.5 0.04166666667 0.97222222222 0.95833333333"/>
+                        <Position Orientation="Rotate0" RelativeBox="0.02777777778 0.04166666667 0.5 0.95833333333"/>
+                        <StripCellParams TrimSize="612.000000153 792.000000198" FrontOverfold="0" BackOverfold="0"/>
+                    </StrippingParams>
+                </StrippingParams>
+            </StrippingParams>
+            <BinderySignature ID="BSG_000005033-0-1" Status="Available" Class="Parameter" BinderySignatureType="Fold" BindingEdge="Left" FoldCatalog="F2-1" NumberUp="1 1" JogEdge="Bottom"/>
+            <Layout DescriptiveName="03 - Vancouver Island FSA Signs  2p" ID="LAY_10242-000003012" Status="Unavailable" PartIDKeys="SignatureName SheetName Side" Class="Parameter">
+                <Layout SignatureName="SIG_10242-000003012">
+                    <Layout SheetName="03_-_Vancouver_Island_FSA_Signs_2p_SHT_10242-000005029-0-1">
+                        <MediaRef rRef="PAP_10242-000005031">
+                            <Part SignatureName="SIG_10242-000003012" SheetName="03_-_Vancouver_Island_FSA_Signs_2p_SHT_10242-000005029-0-1"/>
+                        </MediaRef>
+                        <Layout Side="Front"/>
+                        <Layout Side="Back"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </ResourcePool>
+        <ResourceLinkPool>
+            <ComponentLink rRef="CMP_000005033-0-1" Usage="Output" Amount="200"/>
+        </ResourceLinkPool>
+        <JDF DescriptiveName="Preparation" Category="MISPRE.PrePressPreparation" ID="PPP_10242-10002" JobPartID="PPP_10242-10002" Status="Waiting" Type="ProcessGroup" Types="PrePressPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PPP_10242-10002" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Document" rRef="RLD_IPPP10242-10002" Usage="Input"/>
+                <RunListLink ProcessUsage="Document" rRef="RLD_OPPP10242-10002" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+        <JDF DescriptiveName="03---Vancouver-Island-FSA-Signs-2p" Category="MISPRE.ImpositionPreparation" ID="IMP_10242-10002" JobPartID="IMP_10242-10002" Status="Waiting" Type="ProcessGroup" Types="ImpositionPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_IMP_10242-10002" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Marks" rRef="RLM_OIP10242-10002" Usage="Output"/>
+                <AssemblyLink rRef="ASB_10242-000003012" Usage="Input"/>
+                <StrippingParamsLink rRef="SPM_10242-000003012" Usage="Input"/>
+                <LayoutLink rRef="LAY_10242-000003012" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+    </JDF>
+    <JDF DescriptiveName="Reference Guide - Vancouver Island Bound" ID="PRD_10242-000002006" JobPartID="PRD_10242-000002006" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+        xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+        <AuditPool>
+            <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PRD_10242-000002006" TimeStamp="2019-06-20T07:34:56-04:00"/>
+        </AuditPool>
+        <ResourcePool/>
+        <ResourceLinkPool>
+            <ComponentLink rRef="CMP_000004021-0-1" Usage="Output" Amount="230"/>
+            <ComponentLink rRef="CMP_000004020-0-1" Usage="Input" Amount="1659"/>
+            <ComponentLink rRef="CMP_000004014-0-1" Usage="Input" Amount="237"/>
+        </ResourceLinkPool>
+    </JDF>
+    <JDF DescriptiveName="05 - Reference Guide - Vancouver Island (text)  4p" ID="PRD_10242-000002004" JobPartID="PRD_10242-000002004" Status="Waiting" Type="Product" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+        xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Product">
+        <AuditPool>
+            <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PRD_10242-000002004" TimeStamp="2019-06-20T07:34:56-04:00"/>
+        </AuditPool>
+        <ResourcePool>
+            <RunList DescriptiveName="05 - Reference Guide - Vancouver Island (text)  4p" ID="RLD_IPPP10242-10005" Status="Available" Class="Parameter" NPage="4"/>
+            <RunList DescriptiveName="05 - Reference Guide - Vancouver Island (text)  4p" ID="RLD_OPPP10242-10005" Status="Unavailable" Class="Parameter"/>
+            <RunList DescriptiveName="05 - Reference Guide - Vancouver Island (text)  4p" ID="RLM_OIP10242-10005" Status="Unavailable" Class="Parameter"/>
+            <Assembly DescriptiveName="ASB: Reference Guide - Vancouver Island Bound" ID="ASB_10242-000002004" Status="Available" Class="Parameter" BindingSide="Left" Order="Collecting"/>
+            <StrippingParams DescriptiveName="05 - Reference Guide - Vancouver Island (text)  4p" ID="SPM_10242-000002004" Status="Available" PartIDKeys="SignatureName SheetName" Class="Parameter" WorkStyle="WorkAndBack">
+                <StrippingParams WorkStyle="WorkAndBack" SignatureName="SIG_10242-000002004">
+                    <StrippingParams DescriptiveName="Digital Print F/B 4x4" WorkStyle="WorkAndBack" SheetName="05_-_Reference_Guide_-_Vancouver_Island_(text)_4p_SHT_10242-000004012-0-1">
+                        <MediaRef rRef="PAP_10242-000004027">
+                            <Part SignatureName="SIG_10242-000002004" SheetName="05_-_Reference_Guide_-_Vancouver_Island_(text)_4p_SHT_10242-000004012-0-1"/>
+                        </MediaRef>
+                        <BinderySignatureRef rRef="BSG_000004020-0-1"/>
+                        <Position Orientation="Rotate0" RelativeBox="0.02778871391 0.04168307087 0.97223315836 0.95834973753"/>
+                        <StripCellParams TrimSize="612.000000153 792.000000198" FrontOverfold="0" BackOverfold="0"/>
+                    </StrippingParams>
+                </StrippingParams>
+            </StrippingParams>
+            <BinderySignature ID="BSG_000004020-0-1" Status="Available" Class="Parameter" BinderySignatureType="Fold" BindingEdge="Left" FoldCatalog="F4-2" NumberUp="2 1" JogEdge="Bottom"/>
+            <Layout DescriptiveName="05 - Reference Guide - Vancouver Island (text)  4p" ID="LAY_10242-000002004" Status="Unavailable" PartIDKeys="SignatureName SheetName Side" Class="Parameter">
+                <Layout SignatureName="SIG_10242-000002004">
+                    <Layout SheetName="05_-_Reference_Guide_-_Vancouver_Island_(text)_4p_SHT_10242-000004012-0-1">
+                        <MediaRef rRef="PAP_10242-000004027">
+                            <Part SignatureName="SIG_10242-000002004" SheetName="05_-_Reference_Guide_-_Vancouver_Island_(text)_4p_SHT_10242-000004012-0-1"/>
+                        </MediaRef>
+                        <Layout Side="Front"/>
+                        <Layout Side="Back"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </ResourcePool>
+        <ResourceLinkPool>
+            <ComponentLink rRef="CMP_000004020-0-1" Usage="Output" Amount="1659"/>
+        </ResourceLinkPool>
+        <JDF DescriptiveName="Preparation" Category="MISPRE.PrePressPreparation" ID="PPP_10242-10005" JobPartID="PPP_10242-10005" Status="Waiting" Type="ProcessGroup" Types="PrePressPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_PPP_10242-10005" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Document" rRef="RLD_IPPP10242-10005" Usage="Input"/>
+                <RunListLink ProcessUsage="Document" rRef="RLD_OPPP10242-10005" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+        <JDF DescriptiveName="05---Reference-Guide---Vancouver-Island-(text)-4p" Category="MISPRE.ImpositionPreparation" ID="IMP_10242-10005" JobPartID="IMP_10242-10005" Status="Waiting" Type="ProcessGroup" Types="ImpositionPreparation" MaxVersion="1.3" ICSVersions=" MIS_L2-1.3 Base_L2-1.3 MISPRE_L1-1.3" Version="1.3" 
+            xmlns="http://www.CIP4.org/JDFSchema_1_1" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ProcessGroup">
+            <AuditPool>
+                <Created AgentName="Metrics JDF Connector" AgentVersion="2.3" Author="Metrics" ID="AUC_IMP_10242-10005" TimeStamp="2019-06-20T07:34:56-04:00"/>
+            </AuditPool>
+            <ResourcePool/>
+            <ResourceLinkPool>
+                <RunListLink ProcessUsage="Marks" rRef="RLM_OIP10242-10005" Usage="Output"/>
+                <AssemblyLink rRef="ASB_10242-000002004" Usage="Input"/>
+                <StrippingParamsLink rRef="SPM_10242-000002004" Usage="Input"/>
+                <LayoutLink rRef="LAY_10242-000002004" Usage="Output"/>
+            </ResourceLinkPool>
+        </JDF>
+    </JDF>
+</JDF>
